@@ -4,7 +4,7 @@
 %define		_status		alpha
 %define		_pearname	Net_Vpopmaild
 Summary:	%{_pearname} - Class for accessing Vpopmail's vpopmaild daemon
-Summary(pl.UTF-8):	%{_pearname} - klasa dostępu do daemona vpopmaild
+Summary(pl.UTF-8):	%{_pearname} - klasa dostępu do demona vpopmaild
 Name:		php-pear-%{_pearname}
 Version:	0.1.0
 Release:	2
@@ -30,9 +30,10 @@ modifying domain limits, IP maps, etc
 In PEAR status of this package is: %{_status}.
 
 %description -l pl.UTF-8
-Pakiet ten wspiera wszystkie polecenia vpopmaild, takie jak dodawanie
-/ usuwanie domen, użytkoników, robotów (autoresponderów), czy list
-ezmlm, jak również modyfikowanie limitów, mapowań adresów IP, itd.
+Pakiet ten obsługuje wszystkie polecenia vpopmaild, takie jak
+dodawanie i usuwanie domen, użytkowników, robotów (autoresponderów),
+czy list ezmlm, jak również modyfikowanie limitów, mapowań adresów IP
+itd.
 
 Ta klasa ma w PEAR status: %{_status}.
 
