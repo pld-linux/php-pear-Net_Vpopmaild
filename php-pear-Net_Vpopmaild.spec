@@ -1,17 +1,17 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Net
 %define		_subclass	Vpopmaild
-%define		_status		alpha
+%define		_status		beta
 %define		_pearname	Net_Vpopmaild
 Summary:	%{_pearname} - Class for accessing Vpopmail's vpopmaild daemon
 Summary(pl.UTF-8):	%{_pearname} - klasa dostępu do demona vpopmaild
 Name:		php-pear-%{_pearname}
-Version:	0.1.0
-Release:	2
+Version:	0.3.1
+Release:	1
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	17d677de1edfa04c4b57b10b30672d04
+# Source0-md5:	a9a2cb875c880254fe0517ee2549d3a3
 URL:		http://pear.php.net/package/Net_Vpopmaild/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
